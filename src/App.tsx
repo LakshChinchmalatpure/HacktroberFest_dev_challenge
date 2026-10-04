@@ -19,6 +19,7 @@ import { SettingsPage } from '@/pages/SettingsPage';
 
 export function App() {
   const { user } = useAppStore();
+  const basename = import.meta.env.DEV ? '/' : '/HacktroberFest_dev_challenge';
 
   useEffect(() => {
     // Initialize theme class on mount
@@ -33,7 +34,7 @@ export function App() {
   }, [user.preferences.theme]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         {/* Landing Page */}
         <Route path="/" element={<LandingPage />} />
