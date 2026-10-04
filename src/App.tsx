@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useAppStore } from '@/store/useAppStore';
 import { registerServiceWorker } from '@/lib/pwa';
 
@@ -19,7 +19,6 @@ import { SettingsPage } from '@/pages/SettingsPage';
 
 export function App() {
   const { user } = useAppStore();
-  const basename = import.meta.env.DEV ? '/' : '/HacktroberFest_dev_challenge';
 
   useEffect(() => {
     // Initialize theme class on mount
@@ -34,7 +33,7 @@ export function App() {
   }, [user.preferences.theme]);
 
   return (
-    <BrowserRouter basename={basename}>
+    <HashRouter>
       <Routes>
         {/* Landing Page */}
         <Route path="/" element={<LandingPage />} />
@@ -58,7 +57,7 @@ export function App() {
         {/* Catch-all */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
