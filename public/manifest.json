@@ -1,0 +1,17 @@
+{
+  "short_name": "Cogniva",
+  "name": "Cogniva - Intelligent Learning Workspace",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#090d16",
+  "theme_color": "#6366f1",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "description": "AI-powered adaptive learning workspace that helps students focus, learn, practice, test, and improve."
+}
