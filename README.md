@@ -29,6 +29,8 @@ Built for Hacktoberfest 2026 as a gift for a friend preparing for CS university 
 
 ---
 
+LIVE DEPLOYED LINK: https://lakshchinchmalatpure.github.io/HacktroberFest_dev_challenge/
+
 ## Features
 
 | Module | Capability |
