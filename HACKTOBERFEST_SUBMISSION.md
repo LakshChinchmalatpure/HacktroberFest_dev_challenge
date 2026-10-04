@@ -16,6 +16,8 @@ cover_image: ""
 
 I built it for my friend who is preparing for CS university exams (Data Structures, DBMS, Operating Systems, Computer Networks). They were juggling five different apps — a timer, Anki, a notes app, YouTube, and a spreadsheet to track progress — and still feeling overwhelmed. Cogniva replaces all of them with a single cohesive workspace.
 
+live deployed link: https://lakshchinchmalatpure.github.io/HacktroberFest_dev_challenge/
+
 ### Core Features
 
 | Feature | Description |
