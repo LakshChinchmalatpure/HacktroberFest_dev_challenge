@@ -25,7 +25,7 @@ export const AuthPage: React.FC = () => {
       return;
     }
 
-    login(email || 'alex.morgan@university.edu', name || 'Alex Morgan');
+    login(email || 'laksh@cogniva.dev', name || 'Laksh');
     navigate('/app');
   };
 
@@ -70,7 +70,7 @@ export const AuthPage: React.FC = () => {
             className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-2xl bg-gradient-to-r from-primary-600 to-brand-500 hover:from-primary-500 hover:to-brand-400 text-white font-bold text-xs shadow-md shadow-primary-500/20 transition group"
           >
             <Sparkles className="w-4 h-4" />
-            <span>Try Live Demo (Alex Morgan)</span>
+            <span>Try Live Demo (Laksh)</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
@@ -111,7 +111,7 @@ export const AuthPage: React.FC = () => {
                   <input
                     type="text"
                     required
-                    placeholder="Alex Morgan"
+                    placeholder="Laksh"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     className="w-full pl-10 pr-4 py-2.5 text-xs rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500/40"
@@ -129,7 +129,7 @@ export const AuthPage: React.FC = () => {
                 <input
                   type="email"
                   required
-                  placeholder="alex.morgan@university.edu"
+                  placeholder="laksh@cogniva.dev"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="w-full pl-10 pr-4 py-2.5 text-xs rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-primary-500/40"

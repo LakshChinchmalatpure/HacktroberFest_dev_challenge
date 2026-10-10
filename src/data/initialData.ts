@@ -14,12 +14,12 @@ import { PRESET_FLASHCARDS } from './presetFlashcards';
 import { PRESET_QUESTIONS } from './presetQuestions';
 
 export const INITIAL_USER: UserProfile = {
-  id: 'user-alex-morgan',
-  name: 'Alex Morgan',
-  email: 'alex.morgan@university.edu',
+  id: 'user-laksh',
+  name: 'Laksh',
+  email: 'laksh@cogniva.dev',
   avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
   role: 'student',
-  bio: 'CS Junior & aspiring Systems Engineer | Focusing on DSA, DBMS & OS',
+  bio: 'CS Junior & aspiring Systems / AI Engineer | Focusing on DSA, DBMS & OS',
   currentStreak: 12,
   bestStreak: 15,
   lastActiveDate: new Date().toISOString(),
@@ -445,7 +445,7 @@ export const INITIAL_RECOMMENDATIONS: AdaptiveRecommendation[] = [
   },
 ];
 
-// 30 days activity heatmap log for Alex Morgan
+// 30 days activity heatmap log for Laksh
 export const INITIAL_DAILY_LOGS: DailyStudyLog[] = Array.from({ length: 30 }).map((_, i) => {
   const d = new Date();
   d.setDate(d.getDate() - (29 - i));

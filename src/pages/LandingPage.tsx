@@ -98,11 +98,11 @@ export const LandingPage: React.FC = () => {
                 onClick={handleTryDemo}
                 className="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-white text-slate-950 hover:bg-slate-100 font-bold text-xs shadow-lg transition"
               >
-                Experience Live App (Alex Morgan)
+                Experience Live App (Laksh)
               </button>
 
               <a
-                href="https://github.com"
+                href="https://github.com/LakshChinchmalatpure/HacktroberFest_dev_challenge"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl border border-slate-700 bg-slate-800/80 hover:bg-slate-800 text-white font-semibold text-xs transition"

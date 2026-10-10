@@ -32,7 +32,7 @@ live deployed link: https://lakshchinchmalatpure.github.io/HacktroberFest_dev_ch
 | 🌙 **Dark / Light Mode** | Full theme support with a smooth toggle |
 | 📶 **Offline-First PWA** | Service Worker registration + Web App Manifest for installable offline use |
 
-The demo workspace is pre-seeded with a user profile ("Alex Morgan") enrolled in 5 subjects, realistic flashcard libraries, and preset quiz question banks — so anyone can click "Try Demo" and immediately experience the full product.
+The demo workspace is pre-seeded with a student profile ("Laksh") enrolled in 5 CS subjects, realistic flashcard libraries, and preset quiz question banks — so anyone can click "Try Demo" and immediately experience the full product.
 
 ---
 
@@ -45,12 +45,12 @@ To run locally:
 
 ```bash
 git clone https://github.com/LakshChinchmalatpure/HacktroberFest_dev_challenge
-cd cogniva
+cd HacktroberFest_dev_challenge
 npm install
 npm run dev
 ```
 
-Then open `http://localhost:5173` and click **"Try Demo"** to enter the full workspace as Alex Morgan.
+Then open `http://localhost:5173` and click **"Try Demo"** to enter the full workspace as Laksh.
 
 **Key screens to explore:**
 - `/app` — Dashboard with KPI stats, streak alerts, activity heatmap, and AI Co-Pilot button

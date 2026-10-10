@@ -85,7 +85,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onToggleSidebar }) => {
           <button
             onClick={resetToDemoData}
             className="hidden xl:flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 text-xs hover:bg-slate-100 dark:hover:bg-slate-800 transition"
-            title="Reset to fresh Alex Morgan demo data"
+            title="Reset to fresh Laksh demo data"
           >
             <RotateCcw className="w-3.5 h-3.5" />
             <span>Reset Demo</span>

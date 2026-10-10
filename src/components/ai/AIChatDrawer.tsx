@@ -33,7 +33,7 @@ export const AIChatDrawer: React.FC = () => {
       id: 'welcome-msg',
       sender: 'assistant',
       content:
-        "👋 Hi Alex! I'm **Cogniva AI**, your intelligent learning co-pilot. I analyze your quiz accuracies and spaced-repetition cards.\n\nAsk me to simplify tough CS concepts, diagnose test mistakes, or generate customized study sessions!",
+        "👋 Hi Laksh! I'm **Cogniva AI**, your intelligent learning co-pilot. I analyze your quiz accuracies and spaced-repetition cards.\n\nAsk me to simplify tough CS concepts, diagnose test mistakes, or generate customized study sessions!",
       timestamp: new Date().toISOString(),
     },
   ]);

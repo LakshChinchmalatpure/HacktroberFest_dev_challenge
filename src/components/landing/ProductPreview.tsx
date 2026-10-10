@@ -41,7 +41,7 @@ export const ProductPreview: React.FC = () => {
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <h2 className="text-xl sm:text-2xl font-bold font-heading text-white">
-                Good evening, Alex 👋
+                Good evening, Laksh 👋
               </h2>
               <p className="text-xs text-slate-400">Ready to make progress today?</p>
             </div>

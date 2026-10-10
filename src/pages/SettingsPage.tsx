@@ -219,7 +219,7 @@ export const SettingsPage: React.FC = () => {
             <button
               type="button"
               onClick={() => {
-                if (window.confirm('Reset all workspace data back to fresh Alex Morgan demo state?')) {
+                if (window.confirm('Reset all workspace data back to fresh Laksh demo state?')) {
                   resetToDemoData();
                   setSavedMsg('Workspace reset to fresh demo data.');
                 }
