@@ -148,7 +148,11 @@ Open source is what allowed Cogniva to be a *real* tool for a real person, not a
 
 ## My Agent Session
 
-*Session recording coming soon — built with Antigravity IDE (Google DeepMind).*
+This entire platform was engineered iteratively using **Antigravity IDE** (powered by Google DeepMind). The agent assisted with architecture planning, SM-2 spaced repetition algorithmic implementation, component tree generation, dark-mode glassmorphic UI design, analytics charts, and PWA integration.
+
+{% agent_session cogniva-building-the-ai-powered-adaptive-learning-workspace-jpz068 %}
+
+> 🔗 **Interactive Session Transcript:** [View Agent Session on DEV](https://dev.to/agent_sessions/cogniva-building-the-ai-powered-adaptive-learning-workspace-jpz068)
 
 ---
 
