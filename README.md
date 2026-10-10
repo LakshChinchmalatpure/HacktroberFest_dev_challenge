@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="public/logo.svg" alt="Cogniva Logo" width="72" height="72" />
 
@@ -29,7 +29,10 @@ Built for Hacktoberfest 2026 as a gift for a friend preparing for CS university 
 
 ---
 
-LIVE DEPLOYED LINK: https://lakshchinchmalatpure.github.io/HacktroberFest_dev_challenge/
+> 🚀 **Live Demo:** [https://lakshchinchmalatpure.github.io/HacktroberFest_dev_challenge/](https://lakshchinchmalatpure.github.io/HacktroberFest_dev_challenge/)  
+> 🤖 **Interactive Agent Session:** [View Full Transcript on DEV](https://dev.to/agent_sessions/cogniva-building-the-ai-powered-adaptive-learning-workspace-jpz068)
+
+---
 
 ## Features
 

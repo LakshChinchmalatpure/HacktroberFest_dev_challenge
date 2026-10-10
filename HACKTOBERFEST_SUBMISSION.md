@@ -38,7 +38,8 @@ The demo workspace is pre-seeded with a user profile ("Alex Morgan") enrolled in
 
 ## Demo
 
-> 🚀 **Live App:** [http://localhost:5173](http://localhost:5173) *(local dev — see repo to run)*
+> 🚀 **Live Deployed App:** [https://lakshchinchmalatpure.github.io/HacktroberFest_dev_challenge/](https://lakshchinchmalatpure.github.io/HacktroberFest_dev_challenge/)  
+> 💻 **Local Development:** `http://localhost:5173` (see instructions below)
 
 To run locally:
 
